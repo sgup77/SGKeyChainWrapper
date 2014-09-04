@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21C7B40A19B568A800D8F573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7B40919B568A800D8F573 /* Foundation.framework */; };
+		21C7B40C19B568A800D8F573 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7B40B19B568A800D8F573 /* CoreGraphics.framework */; };
+		21C7B40E19B568A800D8F573 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7B40D19B568A800D8F573 /* UIKit.framework */; };
+		21C7B41419B568A800D8F573 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21C7B41219B568A800D8F573 /* InfoPlist.strings */; };
+		21C7B41619B568A800D8F573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C7B41519B568A800D8F573 /* main.m */; };
+		21C7B41A19B568A800D8F573 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C7B41919B568A800D8F573 /* SGAppDelegate.m */; };
+		21C7B41D19B568A800D8F573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C7B41B19B568A800D8F573 /* Main.storyboard */; };
+		21C7B42019B568A800D8F573 /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C7B41F19B568A800D8F573 /* SGViewController.m */; };
+		21C7B42219B568A800D8F573 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C7B42119B568A800D8F573 /* Images.xcassets */; };
+		21C7B42819B568A800D8F573 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7B42719B568A800D8F573 /* XCTest.framework */; };
+		21C7B42919B568A800D8F573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7B40919B568A800D8F573 /* Foundation.framework */; };
+		21C7B42A19B568A800D8F573 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7B40D19B568A800D8F573 /* UIKit.framework */; };
+		21C7B43219B568A800D8F573 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21C7B43019B568A800D8F573 /* InfoPlist.strings */; };
+		21C7B43419B568A800D8F573 /* SGKeyChainWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C7B43319B568A800D8F573 /* SGKeyChainWrapperTests.m */; };
+		21C7B44019B56C2A00D8F573 /* SGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C7B43F19B56C2A00D8F573 /* SGSecondViewController.m */; };
+		21C7B44319B5702300D8F573 /* SGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C7B44219B5702300D8F573 /* SGHelper.m */; };
+		21C7B44619B570F100D8F573 /* SGKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C7B44519B570F100D8F573 /* SGKeyChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21C7B42B19B568A800D8F573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21C7B3FE19B568A800D8F573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C7B40519B568A800D8F573;
+			remoteInfo = SGKeyChainWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21C7B40619B568A800D8F573 /* SGKeyChainWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGKeyChainWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C7B40919B568A800D8F573 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21C7B40B19B568A800D8F573 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21C7B40D19B568A800D8F573 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21C7B41119B568A800D8F573 /* SGKeyChainWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGKeyChainWrapper-Info.plist"; sourceTree = "<group>"; };
+		21C7B41319B568A800D8F573 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21C7B41519B568A800D8F573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21C7B41719B568A800D8F573 /* SGKeyChainWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGKeyChainWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		21C7B41819B568A800D8F573 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		21C7B41919B568A800D8F573 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		21C7B41C19B568A800D8F573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21C7B41E19B568A800D8F573 /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		21C7B41F19B568A800D8F573 /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
+		21C7B42119B568A800D8F573 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21C7B42719B568A800D8F573 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		21C7B42F19B568A800D8F573 /* SGKeyChainWrapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGKeyChainWrapperTests-Info.plist"; sourceTree = "<group>"; };
+		21C7B43119B568A800D8F573 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21C7B43319B568A800D8F573 /* SGKeyChainWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGKeyChainWrapperTests.m; sourceTree = "<group>"; };
+		21C7B43E19B56C2A00D8F573 /* SGSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSecondViewController.h; sourceTree = "<group>"; };
+		21C7B43F19B56C2A00D8F573 /* SGSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSecondViewController.m; sourceTree = "<group>"; };
+		21C7B44119B5702300D8F573 /* SGHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHelper.h; sourceTree = "<group>"; };
+		21C7B44219B5702300D8F573 /* SGHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHelper.m; sourceTree = "<group>"; };
+		21C7B44419B570F100D8F573 /* SGKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKeyChain.h; sourceTree = "<group>"; };
+		21C7B44519B570F100D8F573 /* SGKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKeyChain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21C7B40319B568A800D8F573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7B40C19B568A800D8F573 /* CoreGraphics.framework in Frameworks */,
+				21C7B40E19B568A800D8F573 /* UIKit.framework in Frameworks */,
+				21C7B40A19B568A800D8F573 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C7B42419B568A800D8F573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7B42819B568A800D8F573 /* XCTest.framework in Frameworks */,
+				21C7B42A19B568A800D8F573 /* UIKit.framework in Frameworks */,
+				21C7B42919B568A800D8F573 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21C7B3FD19B568A800D8F573 = {
+			isa = PBXGroup;
+			children = (
+				21C7B40F19B568A800D8F573 /* SGKeyChainWrapper */,
+				21C7B42D19B568A800D8F573 /* SGKeyChainWrapperTests */,
+				21C7B40819B568A800D8F573 /* Frameworks */,
+				21C7B40719B568A800D8F573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21C7B40719B568A800D8F573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21C7B40619B568A800D8F573 /* SGKeyChainWrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C7B40819B568A800D8F573 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21C7B40919B568A800D8F573 /* Foundation.framework */,
+				21C7B40B19B568A800D8F573 /* CoreGraphics.framework */,
+				21C7B40D19B568A800D8F573 /* UIKit.framework */,
+				21C7B42719B568A800D8F573 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21C7B40F19B568A800D8F573 /* SGKeyChainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				21C7B41819B568A800D8F573 /* SGAppDelegate.h */,
+				21C7B41919B568A800D8F573 /* SGAppDelegate.m */,
+				21C7B41B19B568A800D8F573 /* Main.storyboard */,
+				21C7B41E19B568A800D8F573 /* SGViewController.h */,
+				21C7B41F19B568A800D8F573 /* SGViewController.m */,
+				21C7B43E19B56C2A00D8F573 /* SGSecondViewController.h */,
+				21C7B43F19B56C2A00D8F573 /* SGSecondViewController.m */,
+				21C7B44119B5702300D8F573 /* SGHelper.h */,
+				21C7B44219B5702300D8F573 /* SGHelper.m */,
+				21C7B44419B570F100D8F573 /* SGKeyChain.h */,
+				21C7B44519B570F100D8F573 /* SGKeyChain.m */,
+				21C7B42119B568A800D8F573 /* Images.xcassets */,
+				21C7B41019B568A800D8F573 /* Supporting Files */,
+			);
+			path = SGKeyChainWrapper;
+			sourceTree = "<group>";
+		};
+		21C7B41019B568A800D8F573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21C7B41119B568A800D8F573 /* SGKeyChainWrapper-Info.plist */,
+				21C7B41219B568A800D8F573 /* InfoPlist.strings */,
+				21C7B41519B568A800D8F573 /* main.m */,
+				21C7B41719B568A800D8F573 /* SGKeyChainWrapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21C7B42D19B568A800D8F573 /* SGKeyChainWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				21C7B43319B568A800D8F573 /* SGKeyChainWrapperTests.m */,
+				21C7B42E19B568A800D8F573 /* Supporting Files */,
+			);
+			path = SGKeyChainWrapperTests;
+			sourceTree = "<group>";
+		};
+		21C7B42E19B568A800D8F573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21C7B42F19B568A800D8F573 /* SGKeyChainWrapperTests-Info.plist */,
+				21C7B43019B568A800D8F573 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21C7B40519B568A800D8F573 /* SGKeyChainWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C7B43719B568A800D8F573 /* Build configuration list for PBXNativeTarget "SGKeyChainWrapper" */;
+			buildPhases = (
+				21C7B40219B568A800D8F573 /* Sources */,
+				21C7B40319B568A800D8F573 /* Frameworks */,
+				21C7B40419B568A800D8F573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGKeyChainWrapper;
+			productName = SGKeyChainWrapper;
+			productReference = 21C7B40619B568A800D8F573 /* SGKeyChainWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21C7B42619B568A800D8F573 /* SGKeyChainWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C7B43A19B568A800D8F573 /* Build configuration list for PBXNativeTarget "SGKeyChainWrapperTests" */;
+			buildPhases = (
+				21C7B42319B568A800D8F573 /* Sources */,
+				21C7B42419B568A800D8F573 /* Frameworks */,
+				21C7B42519B568A800D8F573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21C7B42C19B568A800D8F573 /* PBXTargetDependency */,
+			);
+			name = SGKeyChainWrapperTests;
+			productName = SGKeyChainWrapperTests;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21C7B3FE19B568A800D8F573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.sourav.gupta;
+				TargetAttributes = {
+					21C7B42619B568A800D8F573 = {
+						TestTargetID = 21C7B40519B568A800D8F573;
+					};
+				};
+			};
+			buildConfigurationList = 21C7B40119B568A800D8F573 /* Build configuration list for PBXProject "SGKeyChainWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21C7B3FD19B568A800D8F573;
+			productRefGroup = 21C7B40719B568A800D8F573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21C7B40519B568A800D8F573 /* SGKeyChainWrapper */,
+				21C7B42619B568A800D8F573 /* SGKeyChainWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21C7B40419B568A800D8F573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7B42219B568A800D8F573 /* Images.xcassets in Resources */,
+				21C7B41419B568A800D8F573 /* InfoPlist.strings in Resources */,
+				21C7B41D19B568A800D8F573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C7B42519B568A800D8F573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7B43219B568A800D8F573 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21C7B40219B568A800D8F573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7B44019B56C2A00D8F573 /* SGSecondViewController.m in Sources */,
+				21C7B44619B570F100D8F573 /* SGKeyChain.m in Sources */,
+				21C7B44319B5702300D8F573 /* SGHelper.m in Sources */,
+				21C7B41A19B568A800D8F573 /* SGAppDelegate.m in Sources */,
+				21C7B42019B568A800D8F573 /* SGViewController.m in Sources */,
+				21C7B41619B568A800D8F573 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C7B42319B568A800D8F573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7B43419B568A800D8F573 /* SGKeyChainWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21C7B42C19B568A800D8F573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21C7B40519B568A800D8F573 /* SGKeyChainWrapper */;
+			targetProxy = 21C7B42B19B568A800D8F573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21C7B41219B568A800D8F573 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C7B41319B568A800D8F573 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21C7B41B19B568A800D8F573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C7B41C19B568A800D8F573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21C7B43019B568A800D8F573 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C7B43119B568A800D8F573 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21C7B43519B568A800D8F573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21C7B43619B568A800D8F573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21C7B43819B568A800D8F573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGKeyChainWrapper/SGKeyChainWrapper-Prefix.pch";
+				INFOPLIST_FILE = "SGKeyChainWrapper/SGKeyChainWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21C7B43919B568A800D8F573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGKeyChainWrapper/SGKeyChainWrapper-Prefix.pch";
+				INFOPLIST_FILE = "SGKeyChainWrapper/SGKeyChainWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		21C7B43B19B568A800D8F573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SGKeyChainWrapper.app/SGKeyChainWrapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGKeyChainWrapper/SGKeyChainWrapper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SGKeyChainWrapperTests/SGKeyChainWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		21C7B43C19B568A800D8F573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SGKeyChainWrapper.app/SGKeyChainWrapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGKeyChainWrapper/SGKeyChainWrapper-Prefix.pch";
+				INFOPLIST_FILE = "SGKeyChainWrapperTests/SGKeyChainWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21C7B40119B568A800D8F573 /* Build configuration list for PBXProject "SGKeyChainWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C7B43519B568A800D8F573 /* Debug */,
+				21C7B43619B568A800D8F573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C7B43719B568A800D8F573 /* Build configuration list for PBXNativeTarget "SGKeyChainWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C7B43819B568A800D8F573 /* Debug */,
+				21C7B43919B568A800D8F573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21C7B43A19B568A800D8F573 /* Build configuration list for PBXNativeTarget "SGKeyChainWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C7B43B19B568A800D8F573 /* Debug */,
+				21C7B43C19B568A800D8F573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21C7B3FE19B568A800D8F573 /* Project object */;
+}
